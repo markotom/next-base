@@ -1,35 +1,31 @@
 {
-  "name": "wordpress-ssr-react",
+  "name": "next-base",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "node server",
+    "dev": "next dev",
     "build": "next build",
-    "start": "NODE_ENV=production node server"
+    "start": "next start"
   },
   "dependencies": {
-    "@material-ui/core": "^4.7.2",
+    "@material-ui/core": "^4.11.2",
     "classnames": "^2.2.6",
     "dotenv": "^8.2.0",
-    "graphql-request": "^1.8.2",
-    "html-react-parser": "^0.10.0",
-    "isomorphic-unfetch": "^3.0.0",
-    "koa": "^2.11.0",
-    "koa-router": "^7.4.0",
-    "lodash": "^4.17.19",
-    "next": "9.3.2",
+    "isomorphic-unfetch": "^3.1.0",
+    "lodash.foreach": "^4.5.0",
+    "lodash.get": "^4.4.2",
+    "lodash.upperfirst": "^4.3.1",
+    "next": "^10.0.4",
     "prop-types": "^15.7.2",
     "react": "16.12.0",
     "react-dom": "16.12.0",
-    "route-parser": "^0.0.5",
-    "styled-components": "^4.4.1",
-    "swr": "^0.1.13"
+    "route-parser": "0.0.5",
+    "swr": "^0.1.18"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
     "eslint": "^6.7.2",
     "eslint-config-airbnb": "^18.0.1",
-    "eslint-config-prettier": "^6.7.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.17.0",

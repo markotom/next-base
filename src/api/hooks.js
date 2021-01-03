@@ -1,7 +1,8 @@
 import { useMemo } from 'react';
 import useSWR from 'swr';
 import Route from 'route-parser';
-import { forEach, upperFirst } from 'lodash';
+import forEach from 'lodash.foreach';
+import upperFirst from 'lodash.upperfirst';
 
 import fetch from '../../lib/fetch';
 import routes from '../config/api';

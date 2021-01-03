@@ -1,13 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Head from 'next/head';
-import { get } from 'lodash';
+import get from 'lodash.get';
 
 import Typography from '@material-ui/core/Typography';
 
-import { useGetItems } from '../../src/api/hooks';
-import { getItems } from '../../src/api';
-
+import { useGetItems } from '../src/api/hooks';
+import { getItems } from '../src/api';
 
 const Home = ({ initialData }) => {
   const { data } = useGetItems({ initialData });

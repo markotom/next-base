@@ -1,15 +1,9 @@
 const dotenv = require('dotenv');
 const { resolve } = require('path');
 
-const env = process.env.NODE_ENV || 'development';
-
-dotenv.config({
-  path: resolve(__dirname, `./.env.${env}`),
-})
-
 dotenv.config({
   path: resolve(__dirname, './.env'),
-})
+});
 
 module.exports = {
   serverRuntimeConfig: {

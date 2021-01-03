@@ -1,0 +1,20 @@
+{
+  "extends": [
+    "airbnb"
+  ],
+  "plugins": [
+    "react",
+    "react-hooks"
+  ],
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "parser": "babel-eslint",
+  "settings": {
+    "import/ignore": [
+      "src/api/hooks.js",
+      "src/api/index.js"
+    ]
+  }
+}
